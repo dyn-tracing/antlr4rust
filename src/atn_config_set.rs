@@ -14,6 +14,7 @@ use crate::parser_atn_simulator::MergeCache;
 use crate::prediction_context::{MurmurHasherBuilder, PredictionContext};
 use crate::semantic_context::SemanticContext;
 
+#[allow(dead_code)]
 pub struct ATNConfigSet {
     cached_hash: u64,
 
